@@ -1,7 +1,105 @@
 .App {
-position: relative;
-height: 100vh;
-
+  background-color: #000000;
+  position: relative;
+  height: 100vh;
+  padding-top: 28px;
+  /* flex-direction: column;
+  justify-content: center; */
 }
 
+.center_bgd {
+  width: 70%;
+  height: 97%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  padding: 0 20px;
+  background-image: linear-gradient(to bottom right, #3e414b, #1a1d25);
+}
 
+.exchange_content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  width: 100%;
+}
+
+.header_text {
+  font-size: 20px;
+  color: white;
+  opacity: 0.8;
+  align-self: self-start;
+}
+
+.num_symbol {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.nubSymbol {
+  font-size: 25px;
+  font-weight: bold;
+  color: white;
+  margin: unset;
+}
+
+.line {
+  height: 1px;
+  width: 100%;
+  background: white;
+  opacity: 0.4;
+}
+
+.btn_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+}
+.input {
+  border: none;
+  /* width: 100%; */
+  padding: 10px 22px;
+  border-radius: 22px;
+  margin-bottom: 7px;
+  outline: none;
+  margin: 10px;
+}
+.input_box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* width: 100%; */
+}
+
+.btn_box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.btn {
+  padding: 15px 20px;
+  border-radius: 20px;
+  background: #6f8ddb;
+  outline: none;
+  border: none;
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.btnCoin {
+  background: #ff6cac;
+}
