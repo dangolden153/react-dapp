@@ -103,3 +103,26 @@
 .btnCoin {
   background: #ff6cac;
 }
+
+@media screen and (max-width: 500px) {
+  .btn_container {
+    width: 100%;
+  }
+
+  .btn {
+    padding: 7px 19px;
+    border-radius: 10px;
+    font-size: 10px;
+  }
+
+  .input {
+    padding: 7px 9px;
+    border-radius: 11px;
+    margin-bottom: 4px;
+    width: 118px;
+  }
+
+  .nubSymbol {
+    font-size: 20px;
+  }
+}
